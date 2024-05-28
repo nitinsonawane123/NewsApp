@@ -6,7 +6,7 @@ export class NewsItem extends Component {
     return (
       <div className='my-3'>
           <div className="card">
-          <span class="position-absolute top-0 translate-middle badge rounded-pill bg-danger" style={{left: '91%', zIndex: '1'}}>
+          <span className="position-absolute top-0 translate-middle badge rounded-pill bg-danger" style={{left: '91%', zIndex: '1'}}>
              {source}
              </span>
            <img src={!imageUrl?"https://www.livemint.com/lm-img/img/2024/05/26/1600x900/Cyclone_Remal_1716685044781_1716685045021.jpg":imageUrl} className="card-img-top" alt="..."/>
